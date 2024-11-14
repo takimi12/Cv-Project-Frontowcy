@@ -1,0 +1,21 @@
+$main-gap: 20px;
+
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans Mt', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    margin-bottom: $main-gap;
+    
+    li {
+        list-style-type: none;
+    }
+}
+
+h2 {
+    margin-bottom: $main-gap;
+}
