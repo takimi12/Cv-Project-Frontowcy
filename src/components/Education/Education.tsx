@@ -29,13 +29,13 @@ interface EducationItem {
 
 const educations: EducationItem[] = [
   {
-    level: 'Podyplomowe',
+    level: 'Post Graduated Study',
     field: 'Lorem Ipsum & Dolor Sit',
     institution: 'Lorem University - Lublin',
     date: '10/2019 - 06/2020'
   },
   {
-    level: 'Licencjat',
+    level: 'bachelor`s degree',
     field: 'Amet E-commerce and Lorem Media',
     institution: 'Dolor University - Częstochowa',
     date: '10/2015 - 06/2018'
@@ -44,7 +44,7 @@ const educations: EducationItem[] = [
 
 const Education: React.FC = () => (
   <EducationSection>
-    <h3>Wykształcenie</h3>
+    <h3>Education</h3>
     {educations.map((edu, index) => (
       <EducationEntry key={index}>
         <Level>{edu.level}</Level>: {edu.field}

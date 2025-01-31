@@ -51,13 +51,13 @@ const Segment = styled.div`
 
 const Languages: React.FC = () => {
   const languages = [
-    { name: "Angielski", level: "B2", percentage: 70 },
-    { name: "Polski", level: "C1", percentage: 90 },
+    { name: "English", level: "B2", percentage: 70 },
+    { name: "Polish", level: "C1", percentage: 90 },
   ];
 
   return (
     <LanguagesSection>
-      <Heading>Języki Obce</Heading>
+      <Heading>Foreign Language</Heading>
       {languages.map((language, index) => (
         <LanguageItem key={index}>
           <LanguageLabel>

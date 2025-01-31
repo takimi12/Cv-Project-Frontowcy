@@ -23,7 +23,7 @@ const skills = [
 
 const Skills: React.FC = () => (
   <SkillsSection>
-    <h3>Umiejętności</h3>
+    <h3>Skills</h3>
     <SkillsList>
       {skills.map(skill => <SkillItem key={skill}>{skill}</SkillItem>)}
     </SkillsList>

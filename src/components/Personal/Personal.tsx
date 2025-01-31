@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// Style dla komponentu z imieniem i nazwiskiem
 const ProfileSection = styled.section`
   display: flex;
   flex-direction: column;

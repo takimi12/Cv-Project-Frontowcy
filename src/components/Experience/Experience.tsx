@@ -56,7 +56,7 @@ const experiences: ExperienceItem[] = [
 
 const Experience: React.FC = () => (
   <ExperienceSection>
-    <h3>Doświadczenie</h3>
+    <h3>Experience</h3>
     {experiences.map((exp, index) => (
       <Job key={index}>
         <JobTitle>{exp.date}</JobTitle>

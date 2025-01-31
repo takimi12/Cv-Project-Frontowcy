@@ -8,18 +8,20 @@ const HeaderContainer = styled.header`
   margin:20px;
 `;
 
-const ProfilePicture = styled.div`
-  width: 200px;
-  height: 200px;
-  background-color: lightgray;
-  margin-right: 20px;
+const Image = styled.img`
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px; /* Opcjonalnie, dla zaokrąglonych rogów */
+  margin-bottom: 10px;
 `;
-
 
 
 const Photo: React.FC = () => (
   <HeaderContainer>
-    <ProfilePicture />
+     
+<Image src="https://sb.kaleidousercontent.com/67418/574x435/74d8ee5821/screenshot_2022-04-25_at_16-00-23-removebg-preview.png" alt="Profile" />
+
   </HeaderContainer>
 );
 
