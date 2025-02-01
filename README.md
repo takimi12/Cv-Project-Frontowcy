@@ -1,51 +1,126 @@
-# React + TypeScript + Vite
+# Project Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive CV website built with Vite and TypeScript. The application presents a professionally styled curriculum vitae in a two-column layout, featuring personal information, professional experience, and educational background.
 
-Currently, two official plugins are available:
+## Architecture
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## Expanding the ESLint configuration
+| Technology          | Version  | Purpose                                                              |
+|---------------------|----------|----------------------------------------------------------------------|
+| React               | 18.3.1   | Frontend framework for building user interface                       |
+| TypeScript          | 5.5.3    | Static typing and enhanced developer experience                       |
+| Vite                | 5.4.6    | Build tool and development server                                     |
+| SASS                | 1.78.0   | Advanced styling and CSS preprocessing                                |
+| Styled Components   | 6.1.13   | Component-level styling                                              |
+| React Icons         | 5.3.0    | Icon library for UI elements                                          |
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Local Development
 
-- Configure the top-level `parserOptions` property like this:
+### Prerequisites
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Node.js (latest LTS version recommended)
+- npm or yarn package manager
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Setup Steps
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Clone the repository
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-# Cv-Project-Frontowcy
+# Available Scripts
+
+| Script             | Description                                      |
+|--------------------|--------------------------------------------------|
+| `npm run dev`      | Starts development server                       |
+| `npm run build`    | Builds the project for production               |
+| `npm run lint`     | Runs ESLint for code quality checking           |
+| `npm run preview`  | Previews production build locally               |
+
+# Live Demo
+[Add your deployed application URL here]
+
+# Features Implemented
+- Responsive two-column layout
+- Dynamic CV data rendering
+- Professional photo display
+- Detailed experience timeline
+- Educational background section
+- Custom styling with SCSS
+- TypeScript type safety
+
+# Future Plans
+- Add print to PDF functionality
+- Implement dark/light theme toggle
+- Add multilingual support
+- Create multiple CV templates
+- Add contact form
+- Integrate with LinkedIn API
+
+# Contact
+[Add your contact information, LinkedIn profile, and other relevant links here]
+
+# License
+This project is open source and available under the MIT License.
+
+
+# Opis Projektu
+
+Nowoczesna, responsywna strona internetowa z CV zbudowana za pomocą Vite i TypeScript. Aplikacja prezentuje profesjonalnie wystylizowane CV w układzie dwóch kolumn, zawierające informacje osobiste, doświadczenie zawodowe oraz wykształcenie.
+
+## Architektura
+
+## Stos Technologiczny
+
+| Technologia         | Wersja   | Cel                                                                  |
+|---------------------|----------|----------------------------------------------------------------------|
+| React               | 18.3.1   | Framework frontendowy do budowy interfejsu użytkownika                |
+| TypeScript          | 5.5.3    | Statyczne typowanie i ulepszone doświadczenie programisty             |
+| Vite                | 5.4.6    | Narzędzie do budowy i serwer deweloperski                              |
+| SASS                | 1.78.0   | Zaawansowane stylowanie i przetwarzanie CSS                            |
+| Styled Components   | 6.1.13   | Stylowanie na poziomie komponentów                                    |
+| React Icons         | 5.3.0    | Biblioteka ikon do elementów interfejsu użytkownika                    |
+
+## Rozwój Lokalny
+
+### Wymagania wstępne
+
+- Node.js (zalecana najnowsza wersja LTS)
+- Menedżer pakietów npm lub yarn
+
+### Kroki Konfiguracji
+
+1. Sklonuj repozytorium
+
+# Dostępne Skrypty
+
+| Skrypt             | Opis                                          |
+|--------------------|------------------------------------------------|
+| `npm run dev`      | Uruchamia serwer deweloperski                 |
+| `npm run build`    | Buduje projekt do produkcji                  |
+| `npm run lint`     | Uruchamia ESLint do sprawdzania jakości kodu |
+| `npm run preview`  | Podgląd wersji produkcyjnej lokalnie          |
+
+# Demo na Żywo
+[Dodaj tutaj URL do swojej wdrożonej aplikacji]
+
+# Zaimplementowane Funkcje
+- Responsywny układ w dwóch kolumnach
+- Dynamiczne renderowanie danych CV
+- Wyświetlanie profesjonalnego zdjęcia
+- Szczegółowa oś czasu doświadczenia zawodowego
+- Sekcja dotycząca wykształcenia
+- Niestandardowe stylowanie za pomocą SCSS
+- Bezpieczeństwo typów z TypeScript
+
+# Plany na Przyszłość
+- Dodanie funkcji eksportu do PDF
+- Implementacja przełącznika motywu ciemnego/ jasnego
+- Dodanie wsparcia dla wielu języków
+- Stworzenie wielu szablonów CV
+- Dodanie formularza kontaktowego
+- Integracja z LinkedIn API
+
+# Kontakt
+[Dodaj tutaj swoje dane kontaktowe, profil LinkedIn i inne istotne linki]
+
+# Licencja
+Ten projekt jest oprogramowaniem open-source dostępnym na licencji MIT.
