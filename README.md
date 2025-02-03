@@ -1,19 +1,17 @@
 # Project Description
 
-A modern, responsive CV website built with Vite and TypeScript. The application presents a professionally styled curriculum vitae in a two-column layout, featuring personal information, professional experience, and educational background.
+The first of five projects to be completed as part of the React course by Frontowcy. A CV website built using Vite and TypeScript. The application presents a CV in a two-column layout, containing personal information, work experience, and education details.
 
-## Architecture
+## Technology Stack
 
-## Tech Stack
-
-| Technology          | Version  | Purpose                                                              |
-|---------------------|----------|----------------------------------------------------------------------|
-| React               | 18.3.1   | Frontend framework for building user interface                       |
-| TypeScript          | 5.5.3    | Static typing and enhanced developer experience                       |
-| Vite                | 5.4.6    | Build tool and development server                                     |
-| SASS                | 1.78.0   | Advanced styling and CSS preprocessing                                |
-| Styled Components   | 6.1.13   | Component-level styling                                              |
-| React Icons         | 5.3.0    | Icon library for UI elements                                          |
+| Technology         | Version  | Purpose                                                              |
+|--------------------|----------|----------------------------------------------------------------------|
+| React             | 18.3.1   | Frontend framework for building the user interface                  |
+| TypeScript        | 5.5.3    | Static typing and improved developer experience                     |
+| Vite              | 5.4.6    | Build tool and development server                                   |
+| SASS              | 1.78.0   | Advanced styling and CSS preprocessing                              |
+| Styled Components | 6.1.13   | Component-level styling                                            |
+| React Icons       | 5.3.0    | Icon library for UI elements                                       |
 
 ## Local Development
 
@@ -22,51 +20,37 @@ A modern, responsive CV website built with Vite and TypeScript. The application 
 - Node.js (latest LTS version recommended)
 - npm or yarn package manager
 
-### Setup Steps
+## Available Scripts
 
-1. Clone the repository
+| Script            | Description                                     |
+|-------------------|-------------------------------------------------|
+| `npm run dev`     | Starts the development server                   |
+| `npm run build`   | Builds the project for production               |
+| `npm run lint`    | Runs ESLint to check code quality               |
+| `npm run preview` | Previews the production version locally        |
 
-# Available Scripts
+## Implemented Features
+- Display of a professional photo
+- Detailed work experience timeline
+- Education section
+- Custom styling using SCSS
+- Type safety with TypeScript
 
-| Script             | Description                                      |
-|--------------------|--------------------------------------------------|
-| `npm run dev`      | Starts development server                       |
-| `npm run build`    | Builds the project for production               |
-| `npm run lint`     | Runs ESLint for code quality checking           |
-| `npm run preview`  | Previews production build locally               |
+## Future Plans
+- Adding an export-to-PDF function
+- Implementing a dark/light theme switcher
+- Adding support for multiple languages
+- Creating multiple CV templates
 
-# Live Demo
-[Add your deployed application URL here]
-
-# Features Implemented
-- Responsive two-column layout
-- Dynamic CV data rendering
-- Professional photo display
-- Detailed experience timeline
-- Educational background section
-- Custom styling with SCSS
-- TypeScript type safety
-
-# Future Plans
-- Add print to PDF functionality
-- Implement dark/light theme toggle
-- Add multilingual support
-- Create multiple CV templates
-- Add contact form
-- Integrate with LinkedIn API
-
-# Contact
-[Add your contact information, LinkedIn profile, and other relevant links here]
-
-# License
-This project is open source and available under the MIT License.
+## Contact
+Email: tomek12olech@gmail.com  
+GitHub: takimi12  
+LinkedIn:
 
 
 # Opis Projektu
 
-Nowoczesna, responsywna strona internetowa z CV zbudowana za pomocą Vite i TypeScript. Aplikacja prezentuje profesjonalnie wystylizowane CV w układzie dwóch kolumn, zawierające informacje osobiste, doświadczenie zawodowe oraz wykształcenie.
-
-## Architektura
+Pierwszy z 5 projektów do wykonania w ramach kursu React autorstwa Frontowców. Strona internetowa z CV zbudowana za pomocą Vite i TypeScript. Aplikacja prezentuje CV w układzie dwóch kolumn, zawierające informacje osobiste, doświadczenie zawodowe oraz wykształcenie.
 
 ## Stos Technologiczny
 
@@ -86,9 +70,6 @@ Nowoczesna, responsywna strona internetowa z CV zbudowana za pomocą Vite i Type
 - Node.js (zalecana najnowsza wersja LTS)
 - Menedżer pakietów npm lub yarn
 
-### Kroki Konfiguracji
-
-1. Sklonuj repozytorium
 
 # Dostępne Skrypty
 
@@ -99,12 +80,8 @@ Nowoczesna, responsywna strona internetowa z CV zbudowana za pomocą Vite i Type
 | `npm run lint`     | Uruchamia ESLint do sprawdzania jakości kodu |
 | `npm run preview`  | Podgląd wersji produkcyjnej lokalnie          |
 
-# Demo na Żywo
-[Dodaj tutaj URL do swojej wdrożonej aplikacji]
 
 # Zaimplementowane Funkcje
-- Responsywny układ w dwóch kolumnach
-- Dynamiczne renderowanie danych CV
 - Wyświetlanie profesjonalnego zdjęcia
 - Szczegółowa oś czasu doświadczenia zawodowego
 - Sekcja dotycząca wykształcenia
@@ -116,11 +93,9 @@ Nowoczesna, responsywna strona internetowa z CV zbudowana za pomocą Vite i Type
 - Implementacja przełącznika motywu ciemnego/ jasnego
 - Dodanie wsparcia dla wielu języków
 - Stworzenie wielu szablonów CV
-- Dodanie formularza kontaktowego
-- Integracja z LinkedIn API
 
 # Kontakt
-[Dodaj tutaj swoje dane kontaktowe, profil LinkedIn i inne istotne linki]
+Email: tomek12olech@gmail.com 
+GitHub: takimi12 
+LinkedIn:
 
-# Licencja
-Ten projekt jest oprogramowaniem open-source dostępnym na licencji MIT.
